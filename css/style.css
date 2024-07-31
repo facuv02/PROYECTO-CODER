@@ -1,68 +1,82 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 /*header*/
 header {
     position: relative;
     height: 60px;
 }
+
 .navbar-nav .nav-link {
     color: #f1eded;
 }
-/*main*/ 
+
+/*main*/
 main {
     background-color: #131517;
 }
+
 main {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-main .imagPrincipalesIndex img{
+
+main .imagPrincipalesIndex img {
     width: 100%;
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
 }
-.imagPrincipalesIndex{
+
+.imagPrincipalesIndex {
     display: grid;
-    grid-template-columns: repeat(2,1fr) 25% 25%;
+    grid-template-columns: repeat(2, 1fr) 25% 25%;
     grid-template-rows: 30rem 20rem;
-    grid-template-areas: 
-    "imgP0 imgP0 col0 col0"
-    "imgP1 imgP2 imgP3 col2";
+    grid-template-areas:
+        "imgP0 imgP0 col0 col0"
+        "imgP1 imgP2 imgP3 col2";
     gap: .1875rem;
 }
-.img0{
+
+.img0 {
     grid-area: imgP0;
 
 }
-.img1{
+
+.img1 {
     grid-area: imgP1;
 }
-.img2{
+
+.img2 {
     grid-area: imgP2;
 }
-.img3{
+
+.img3 {
     grid-area: imgP3;
-    
+
 }
-.img0 img{
+
+.img0 img {
     object-position: 50% 40%;
 }
-.img2 img{
+
+.img2 img {
     object-position: 50% 38%;
 }
+
 .parrafoauto {
     display: flex;
     color: #ffffff;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 30px;
     padding-right: 30px;
 }
-main .imagPrincipalesIndex .texto{
+
+main .imagPrincipalesIndex .texto {
     width: 100%;
     height: 100%;
     grid-area: col0;
@@ -73,10 +87,11 @@ main .imagPrincipalesIndex .texto{
     align-items: center;
     flex-direction: column;
 }
+
 .card-container {
     background-color: #131517;
     display: flex;
-    justify-content: space-between; /* Distribuye las tarjetas horizontalmente */
+    justify-content: space-between;
     padding: 20px;
     border: 1px solid #ddd;
 }
@@ -87,29 +102,33 @@ main .imagPrincipalesIndex .texto{
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
-    color:#ddd;
+    color: #ddd;
 }
 
 .card img {
     max-width: 100%;
     height: auto;
 }
-.postventa{
+
+.postventa {
     color: #ddd;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     display: flex;
     padding: 5% 10%;
     justify-content: center;
 }
-main .postventa .imgPostVenta{
+
+main .postventa .imgPostVenta {
     width: 30%;
 }
-main .postventa .imgPostVenta img{
+
+main .postventa .imgPostVenta img {
     width: 100%;
     height: 100%;
 }
-main .postventa .textoPostVenta{
+
+main .postventa .textoPostVenta {
     height: 30%;
     width: 40%;
     padding-right: 50px;
@@ -117,22 +136,25 @@ main .postventa .textoPostVenta{
     flex-direction: column;
     align-items: center;
 }
+
 .postventaparrafo {
     padding-top: 30 px;
-    padding-left: 30 px;   
+    padding-left: 30 px;
     align-items: start;
 }
+
 .cardsautos {
     display: flex;
     justify-content: center;
     padding: 50px;
 }
-/*footer*/ 
+
+/*footer*/
 .footer {
     background-color: #232425;
     padding: 20px 0;
     text-align: center;
-   
+
 }
 
 .footer h3 {
@@ -141,7 +163,8 @@ main .postventa .textoPostVenta{
 
 .footer ul li {
     margin-bottom: 10px;
-    }
+}
+
 footer img {
     width: 20px;
     height: 20px;
