@@ -7,7 +7,7 @@
 /*header*/
 header {
     position: relative;
-    height: 60 px;
+    height: 60px;
 }
 .navbar-nav .nav-link {
     color: #f1eded;
@@ -96,7 +96,7 @@ main .imagPrincipalesIndex .texto{
 }
 .postventa{
     color: #ddd;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
     text-align: justify;
     display: flex;
     padding: 5% 10%;
