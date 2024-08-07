@@ -1,0 +1,40 @@
+.nosotros{
+    color: #ddd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    display: flex;
+    padding: 5% 10%;
+    justify-content: center;
+    background: rgb(30,27,83);
+    background: linear-gradient(90deg, rgba(30,27,83,1) 57%, rgba(4,4,4,1) 97%);
+    align-items: center;
+    .texto-nosotros{
+        height: 30%;
+        width: 40%;
+        padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #d3d3d3;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 10px;
+        border: 2px solid #ed3e3e;
+        max-width: 700px;
+        padding: 10px;
+        font-size: 15px;
+        background-color: #232425;
+        .nosotros-parrafo{
+            font-size: 1em;
+            padding-top: 40 px;
+            padding-left: 40 px;
+            text-align: center;
+    }}
+    .imgNosotros img{
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+    }
+    .imgNosotros{
+        width: 60%;
+    } 
+}
