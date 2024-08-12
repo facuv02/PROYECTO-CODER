@@ -1,0 +1,58 @@
+.formularo-ubi {
+    display: flex;
+    align-items: center;
+}
+.titulo-form {
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 5vw;
+
+}
+.formulario {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    padding-left: 35%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-right: 10%;
+    font-family: Arial, sans-serif;
+}
+.formulario-contenido {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    form {
+        display: flex;
+        flex-direction: column;
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+input[type="text"],
+input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.terminos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    input {
+        margin-right: 10px;
+    }
+}
+    }
+}
+iframe {
+    padding-left: 5%;
+    padding-right: 30%;
+}
