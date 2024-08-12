@@ -67,6 +67,10 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 700px;
     text-align: center;
+    box-shadow: 10px 10px 20px 7px rgba(0,0,0,0.82);
+-webkit-box-shadow: 10px 10px 20px 7px rgba(0,0,0,0.82);
+-moz-box-shadow: 10px 10px 20px 7px rgba(0,0,0,0.82);
+    
 }
 .linea-divisoria {
     border: none;
@@ -83,3 +87,16 @@
         width: 550px;
     }
 }
+.background-f {
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 3%, rgba(232,42,42,1) 96%);
+}
+.background-g{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(103,101,101,1) 57%);
+}
+.background-b{
+    background: rgb(22,22,22);
+background: linear-gradient(90deg, rgba(22,22,22,1) 0%, rgba(16,19,130,1) 97%);
+}
+
