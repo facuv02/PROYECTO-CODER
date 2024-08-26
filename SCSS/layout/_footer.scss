@@ -1,16 +1,70 @@
 .footer {
     background-color: #1b1b1c;
-    padding: 20px 0;
+    color: #ffffff;
+    padding: 40px 20px; /* Aumenta el padding para más espaciado */
     text-align: center;
+
     h3 {
         color: #ffffff;
+        margin-bottom: 15px; /* Espacio debajo de los encabezados */
     }
-    li {
-        margin-bottom: 10px;
-        a img {
-            width: 20px;
-            height: 20px;
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
         }
     }
-    
+
+    .list-unstyled {
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center; /* Alinea el texto y la imagen verticalmente */
+            gap: 10px; /* Espacio entre la imagen y el texto */
+
+            a img {
+                width: 24px;
+                height: 24px;
+                vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+            }
+        }
+    }
+
+    .text-light {
+        color: #b0b0b0; /* Un color más claro para el texto */
+    }
+}
+
+/* Ajustes para pantallas de 320px o menos */
+@media (max-width: 320px) {
+    .footer {
+        text-align: left; /* Alinea el texto a la izquierda en pantallas pequeñas */
+        
+        .container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .row {
+            flex-direction: column; /* Cambia la dirección de la fila a columna */
+        }
+
+        .col-md-6 {
+            margin-bottom: 20px; /* Añade espacio entre las columnas */
+        }
+
+        .list-unstyled {
+            li {
+                display: flex;
+                align-items: center;
+                gap: 8px; /* Espacio ajustado entre la imagen y el texto */
+            }
+        }
+    }
 }
