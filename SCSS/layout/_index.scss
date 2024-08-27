@@ -21,7 +21,7 @@ main {
     .card {
         background-color: #202224;
         width: 100%; 
-        height: auto; // Cambia a auto para mantener la proporción de la imagen
+        height: auto; 
         border: 1px solid #eb0000;
         padding: 10px;
         text-align: center;
@@ -61,18 +61,18 @@ main {
     }
 
     .card {
-        width: calc(33.33% - 20px); // Ajusta el tamaño de las tarjetas para que quepan tres por fila
+        width: calc(33.33% - 20px); 
     }
     
 }
-@media (max-width: 320px) {
+@media (max-width: 321px) {
     .card-container {
         flex-direction: column;
     }
 
     .card {
         width: 100%;
-        height: auto; // Asegura que la altura de la tarjeta se ajuste automáticamente en pantallas pequeñas
+        height: auto;
     }
 
     .card img {

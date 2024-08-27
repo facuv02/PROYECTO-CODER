@@ -1,12 +1,12 @@
 .footer {
     background-color: #1b1b1c;
     color: #ffffff;
-    padding: 40px 20px; /* Aumenta el padding para más espaciado */
+    padding: 40px 20px; 
     text-align: center;
 
     h3 {
         color: #ffffff;
-        margin-bottom: 15px; /* Espacio debajo de los encabezados */
+        margin-bottom: 15px; 
     }
 
     a {
@@ -25,26 +25,26 @@
         li {
             margin-bottom: 10px;
             display: flex;
-            align-items: center; /* Alinea el texto y la imagen verticalmente */
-            gap: 10px; /* Espacio entre la imagen y el texto */
+            align-items: center; 
+            gap: 10px; 
 
             a img {
                 width: 24px;
                 height: 24px;
-                vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+                vertical-align: middle;
             }
         }
     }
 
     .text-light {
-        color: #b0b0b0; /* Un color más claro para el texto */
+        color: #b0b0b0; 
     }
 }
 
-/* Ajustes para pantallas de 320px o menos */
-@media (max-width: 320px) {
+
+@media (max-width: 321px) {
     .footer {
-        text-align: left; /* Alinea el texto a la izquierda en pantallas pequeñas */
+        text-align: left; 
         
         .container {
             padding-left: 10px;
@@ -52,18 +52,18 @@
         }
 
         .row {
-            flex-direction: column; /* Cambia la dirección de la fila a columna */
+            flex-direction: column; 
         }
 
         .col-md-6 {
-            margin-bottom: 20px; /* Añade espacio entre las columnas */
+            margin-bottom: 20px;
         }
 
         .list-unstyled {
             li {
                 display: flex;
                 align-items: center;
-                gap: 8px; /* Espacio ajustado entre la imagen y el texto */
+                gap: 8px; 
             }
         }
     }

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 main {
   padding: 0 10px;
   overflow-x: hidden;
@@ -62,7 +61,7 @@ main {
     font-size: 20px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .nosotros .texto-nosotros {
     padding: 10px;
   }
@@ -103,12 +102,12 @@ main {
 .footer {
   background-color: #1b1b1c;
   color: #ffffff;
-  padding: 40px 20px; /* Aumenta el padding para más espaciado */
+  padding: 40px 20px;
   text-align: center;
 }
 .footer h3 {
   color: #ffffff;
-  margin-bottom: 15px; /* Espacio debajo de los encabezados */
+  margin-bottom: 15px;
 }
 .footer a {
   color: #ffffff;
@@ -124,37 +123,36 @@ main {
 .footer .list-unstyled li {
   margin-bottom: 10px;
   display: flex;
-  align-items: center; /* Alinea el texto y la imagen verticalmente */
-  gap: 10px; /* Espacio entre la imagen y el texto */
+  align-items: center;
+  gap: 10px;
 }
 .footer .list-unstyled li a img {
   width: 24px;
   height: 24px;
-  vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+  vertical-align: middle;
 }
 .footer .text-light {
-  color: #b0b0b0; /* Un color más claro para el texto */
+  color: #b0b0b0;
 }
 
-/* Ajustes para pantallas de 320px o menos */
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .footer {
-    text-align: left; /* Alinea el texto a la izquierda en pantallas pequeñas */
+    text-align: left;
   }
   .footer .container {
     padding-left: 10px;
     padding-right: 10px;
   }
   .footer .row {
-    flex-direction: column; /* Cambia la dirección de la fila a columna */
+    flex-direction: column;
   }
   .footer .col-md-6 {
-    margin-bottom: 20px; /* Añade espacio entre las columnas */
+    margin-bottom: 20px;
   }
   .footer .list-unstyled li {
     display: flex;
     align-items: center;
-    gap: 8px; /* Espacio ajustado entre la imagen y el texto */
+    gap: 8px;
   }
 }
 .imagPrincipalesIndex {
@@ -252,7 +250,7 @@ main {
   background: linear-gradient(90deg, rgb(22, 22, 22) 0%, rgb(16, 19, 130) 97%);
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
   .imagPrincipalesIndex {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -415,7 +413,7 @@ main {
     width: calc(33.33% - 20px);
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .card-container {
     flex-direction: column;
   }
@@ -459,7 +457,7 @@ main {
   border-radius: 10px;
   max-width: 400px;
   width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el formulario */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .formulario-ubi .formulario-contenido form {
   display: flex;
@@ -509,7 +507,7 @@ main {
   text-align: center;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .navbar-collapse {
     display: flex;
     justify-content: space-between;
